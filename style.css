@@ -36,14 +36,14 @@
     display: flex;
 }
 .main__todo-list, .main__completed-list {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 .main__item, .main__todo-heading, .main__completed-heading {
-    list-style:none;
+    list-style: none;
 }
 .main__task-input,.main__task-label,.main__item-checkbox,.main__add-item-button,.main__edit-button,.main__delete-button{
-    outline:none;
+    outline: none;
 }
 .main__add-item-button,.main__edit-button,.main__delete-button {
     background: none;
@@ -136,14 +136,14 @@
 
 /* Edit Task */
 .main__item .main__task-input {
-    display:none
+    display: none
 }
 
 .main__item_edit-mode .main__task-input {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .main__item_edit-mode .main__task-label {
-    display:none;
+    display: none;
 }
