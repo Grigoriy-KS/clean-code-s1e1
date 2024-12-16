@@ -12,60 +12,60 @@
         charset="utf-8">
 </HEAD>
 <body class="page">
-    <div class="aaa">
+    <div class="header">
         <img
-            class="aaa__img" 
+            class="header__img" 
             src="./eisenhower-matrix.jpg"
         >
         <a 
-            class='aaa__more_info' 
+            class='header__more_info' 
             href="https://goal-life.com/page/method/matrix-eisenhower"
         >Want more details?</a>
     </div>
-    <div class="centered-main-page-element">
+    <div class="main">
         <p 
-            class="centered-main-page-element__add-item-section" 
-            id='top-section-for-adding-element-to-list'
+            class="main__add-item-section" 
+            id='add-item-section'
         >
             <label 
-                class="centered-main-page-element__add-item-label" 
+                class="main__add-item-label" 
                 for="new-task"
             >Add Item</label>
-            <div class="centered-main-page-element__task-row-wrapper">
-                <input id='new-task'class="centered-main-page-element__task" type="text">
-                <button class="centered-main-page-element__add-item-button">Add</button>
+            <div class="main__task-row-wrapper">
+                <input id='new-task'class="main__task" type="text">
+                <button class="main__add-item-button">Add</button>
             </div>
         </p>
-        <h3 class="centered-main-page-element__todo-heading">Todo</h3>
-        <ul class="centered-main-page-element__todo-list" id='incompleteTasks'>
-            <li class="centered-main-page-element__item">
-                <input class="centered-main-page-element__item-checkbox" type='checkbox'>
-                <label class="centered-main-page-element__task">Pay Bills</label>
-                <input type="text" class="centered-main-page-element__task">
-                <button class="centered-main-page-element__edit">Edit</button>
-                <button class="centered-main-page-element__delete">
-                    <img class="centered-main-page-element__delete-img" src="./remove.svg">
+        <h3 class="main__todo-heading">Todo</h3>
+        <ul class="main__todo-list" id='incompleteTasks'>
+            <li class="main__item">
+                <input class="main__item-checkbox" type='checkbox'>
+                <label class="main__task">Pay Bills</label>
+                <input type="text" class="main__task">
+                <button class="main__edit-button">Edit</button>
+                <button class="main__delete-button">
+                    <img class="main__delete-img" src="./remove.svg">
                 </button>
             </li>
-            <li class="centered-main-page-element__item centered-main-page-element__item_editMode">
-                <input class="centered-main-page-element__item-checkbox" type="checkbox">
-                <label class="centered-main-page-element__task">Go Shopping</label>
-                <input type="text" value="Go Shopping" class="centered-main-page-element__task">
-                <button class='centered-main-page-element__edit'>Save</button>
-                <button class="centered-main-page-element__delete">
-                    <img class="centered-main-page-element__delete-img" src="./remove.svg">
+            <li class="main__item main__item_edit-mode">
+                <input class="main__item-checkbox" type="checkbox">
+                <label class="main__task">Go Shopping</label>
+                <input type="text" value="Go Shopping" class="main__task">
+                <button class='main__edit-button'>Save</button>
+                <button class="main__delete-button">
+                    <img class="main__delete-img" src="./remove.svg">
                 </button>
             </li>
         </ul>
-        <h3 class="centered-main-page-element__completed-heading">Completed</h3>
-        <ul class="centered-main-page-element__completed-list" id="completed-tasks">
-            <li class="centered-main-page-element__item">
-                <input class="centered-main-page-element__item-checkbox" type="checkbox" checked>
-                <label class="centered-main-page-element__task">See the Doctor</label>
-                <input type="text" class="centered-main-page-element__task">
-                <button class="centered-main-page-element__edit">Edit</button>
-                <button class="centered-main-page-element__delete">
-                    <img class="centered-main-page-element__delete-img" src="./remove.svg">
+        <h3 class="main__completed-heading">Completed</h3>
+        <ul class="main__completed-list" id="completed-tasks">
+            <li class="main__item">
+                <input class="main__item-checkbox" type="checkbox" checked>
+                <label class="main__task">See the Doctor</label>
+                <input type="text" class="main__task">
+                <button class="main__edit-button">Edit</button>
+                <button class="main__delete-button">
+                    <img class="main__delete-img" src="./remove.svg">
                 </button>
             </li>
         </ul>
