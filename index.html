@@ -32,16 +32,16 @@
                 for="new-task"
             >Add Item</label>
             <div class="main__task-row-wrapper">
-                <input id='new-task'class="main__task" type="text">
+                <input id='new-task'class="main__task-input" type="text">
                 <button class="main__add-item-button">Add</button>
             </div>
         </p>
         <h3 class="main__todo-heading">Todo</h3>
-        <ul class="main__todo-list" id='incompleteTasks'>
+        <ul class="main__todo-list" id='incomplete-tasks'>
             <li class="main__item">
                 <input class="main__item-checkbox" type='checkbox'>
-                <label class="main__task">Pay Bills</label>
-                <input type="text" class="main__task">
+                <label class="main__task-label">Pay Bills</label>
+                <input type="text" class="main__task-input">
                 <button class="main__edit-button">Edit</button>
                 <button class="main__delete-button">
                     <img class="main__delete-image" src="./remove.svg">
@@ -49,8 +49,8 @@
             </li>
             <li class="main__item main__item_edit-mode">
                 <input class="main__item-checkbox" type="checkbox">
-                <label class="main__task">Go Shopping</label>
-                <input type="text" value="Go Shopping" class="main__task">
+                <label class="main__task-label">Go Shopping</label>
+                <input type="text" value="Go Shopping" class="main__task-input">
                 <button class='main__edit-button'>Save</button>
                 <button class="main__delete-button">
                     <img class="main__delete-image" src="./remove.svg">
@@ -61,8 +61,8 @@
         <ul class="main__completed-list" id="completed-tasks">
             <li class="main__item">
                 <input class="main__item-checkbox" type="checkbox" checked>
-                <label class="main__task">See the Doctor</label>
-                <input type="text" class="main__task">
+                <label class="main__task-label">See the Doctor</label>
+                <input type="text" class="main__task-input">
                 <button class="main__edit-button">Edit</button>
                 <button class="main__delete-button">
                     <img class="main__delete-image" src="./remove.svg">

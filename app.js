@@ -10,7 +10,7 @@
 
 var taskInput=document.getElementById("new-task");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
-var incompleteTaskHolder=document.getElementById("incompleteTasks");//ul of #incompleteTasks
+var incompleteTaskHolder=document.getElementById("incomplete-tasks");//ul of #incompleteTasks
 var completedTasksHolder=document.getElementById("completed-tasks");//completed-tasks
 
 
@@ -33,18 +33,21 @@ var createNewTaskElement=function(taskString){
     var deleteButtonImg=document.createElement("img");//delete button image
 
     label.innerText=taskString;
-    label.className='main__task';
+    label.className='main__task-label';
 
     //Each elements, needs appending
     checkBox.type="checkbox";
+    checkBox.className="main__item-checkbox";
     editInput.type="text";
-    editInput.className="main__task";
+    editInput.className="main__task-input";
+    listItem.className="main__item";
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
     editButton.className="main__edit-button";
 
     deleteButton.className="main__delete-button";
     deleteButtonImg.src='./remove.svg';
+    deleteButtonImg.className="main__delete-image";
     deleteButton.appendChild(deleteButtonImg);
 
 
